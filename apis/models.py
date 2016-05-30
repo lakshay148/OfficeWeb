@@ -54,6 +54,6 @@ class Task(models.Model):
     module = models.IntegerField()
     domain = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
-    completed_at = models.DateTimeField()
+    completed_at = models.DateTimeField(null=True, blank=True)
     status = models.IntegerField()
     created_by = models.CharField(max_length=20)

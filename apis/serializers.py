@@ -58,3 +58,10 @@ class RoleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Role
         fields = ('id', 'name', 'created_at', 'created_by')
+
+
+class PriviligeSerializer(serializers.ModelSerializer):
+    """docstring for UserSerializer"""
+    class Meta:
+        model = Role
+        fields = ('id', 'name', 'created_at', 'created_by')

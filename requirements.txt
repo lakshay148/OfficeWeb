@@ -18,7 +18,7 @@ dirspec==13.10
 duplicity==0.6.23
 fluendo-eula==0.6
 html5lib==0.999
-httpie==0.9.3
+httpie==3.1.0
 httplib2==0.8
 libvirt-python==1.2.2
 lockfile==0.8
